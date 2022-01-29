@@ -1,5 +1,7 @@
 # Interpret Sign Language with Deep Learning
 
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PolinaPolskaia/profitable-app-profiles/blob/main/app_profiles.ipynb)    [![nbviewer](https://img.shields.io/badge/-nbviewer-orange)](https://nbviewer.org/github/PolinaPolskaia/profitable-app-profiles/blob/main/app_profiles.ipynb)
+   
 In this project, I built a convolutional neural network to classify images of letters from American Sign Language.
 American Sign Language (ASL) is the primary language used by many deaf individuals in North America, and it is also used by hard-of-hearing and hearing individuals. The language is as rich as spoken languages and employs signs made with the hand, along with facial gestures and bodily postures.
 
@@ -7,14 +9,13 @@ A lot of recent progress has been made towards developing computer vision system
 
 After loading, examining, and preprocessing the data, I trainED the network and testED its performance.
 
-Tasks:
+Project workflow:
 
-American Sign Language (ASL)
-Visualize the training data
-Examine the dataset
-One-hot encode the data
-Define the model
-Compile the model
-Train the model
-Test the model
-Visualize mistakes
+* Loading the ASL Image Dataset
+* Examining the Dataset
+* One-hot encoding the data
+* Defining the model
+* Compiling the model
+* Training the model
+* Testing the model
+
